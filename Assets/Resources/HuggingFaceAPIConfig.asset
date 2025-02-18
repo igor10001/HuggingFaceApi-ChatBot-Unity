@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c97e3323ed668f4c983a0046ba7dcb1, type: 3}
+  m_Name: HuggingFaceAPIConfig
+  m_EditorClassIdentifier: 
+  _apiKey: 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
+  _useBackupEndpoints: 1
+  _waitForModel: 1
+  _maxTimeout: 20
+  _taskEndpoints:
+  - taskName: Conversation
+    endpoint: https://api-inference.huggingface.co/models/facebook/blenderbot-3B

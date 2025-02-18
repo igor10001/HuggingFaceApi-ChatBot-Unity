@@ -35,7 +35,7 @@ namespace HuggingFace.API {
 
             for (int i = 0; i < pastUserInputs.Count; i++) {
                 conversation += "User: " + pastUserInputs[i] + "\n";
-                conversation += "Bot: " + generatedResponses[i] + "\n\n";
+                conversation += "AI Friend: " + generatedResponses[i] + "\n\n";
             }
 
             return conversation;

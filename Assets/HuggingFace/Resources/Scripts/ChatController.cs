@@ -64,7 +64,7 @@ namespace HuggingFace.Resources.Scripts {
             HuggingFaceAPI.Conversation(inputText, response => {
                 string reply = conversation.GetLatestResponse();
                 conversationText.text = conversationText.text.TrimEnd("AI Friend is typing...\n".ToCharArray());
-                conversationText.text += $"\n<color=#{botColorHex}>Bot: {reply}</color>\n\n";
+                conversationText.text += $"\n<color=#{botColorHex}>AI Friend: {reply}</color>\n\n";
                 inputField.interactable = true;
                 sendButton.interactable = true;
                 inputField.ActivateInputField();

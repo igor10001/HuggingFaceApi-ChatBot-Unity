@@ -34,7 +34,7 @@ This project is a simple  integrated AI chat using **Hugging Face Inference API*
 5. **Run the scene** (`HuggingFace/Resources/Scenes/ChatBot`)  
 
 ## 🖥️ API Used  
-This project utilizes **Hugging Face Inference API** with the `facebook/blenderbot-3B` model for AI-generated responses.  
+This project utilizes **Hugging Face API** with the `facebook/blenderbot-3B` model for AI-generated responses.  
 
 Example request:  
 ```csharp

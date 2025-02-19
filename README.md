@@ -38,5 +38,5 @@ This project utilizes **Hugging Face Inference API** with the `facebook/blenderb
 
 Example request:  
 ```csharp
-UnityWebRequest request = UnityWebRequest.Post("https://api-inference.huggingface.co/models/facebook/blenderbot-3B", json);
-request.SetRequestHeader("Authorization", "Bearer YOUR_API_KEY");
+UnityWebRequest request = new UnityWebRequest("https://huggingface.co/api/whoami-v2", "GET");
+request.SetRequestHeader("Authorization", $"Bearer {apiKey}");

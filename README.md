@@ -28,7 +28,7 @@ This project is a simple  integrated AI chat using **Hugging Face Inference API*
        - Example: "facebook/blenderbot-3B" for a chatbot.
    - Adjust Additional Settings
        - Timeout: Set a timeout value (e.g., 10 seconds) to prevent long wait times.
-          Error Handling: Enable error notifications for a smoother experience.
+   Error Handling: Enable error notifications for a smoother experience.
 
 
 5. **Run the scene** (`HuggingFace/Resources/Scenes/ChatBot`)  
